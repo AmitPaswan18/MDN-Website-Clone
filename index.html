@@ -14,37 +14,41 @@
 
     <header>
       <nav>
-        <div class="w-full h-full">
+        <div class="w-full h-full fixed z-10">
+          <h2
+          class="bg-neutral-700 text-center hidden font-semibold text-white h-12 md:flex items-center justify-center w-full">
+          Get real-time assistance with your coding queries. Try <span class="text-violet-400 mx-2"> AI Help</span>
+          now!
+        </h2>
           <div class="flex ">
-            <h2
-              class="bg-neutral-700 text-center font-semibold text-white h-12 md:flex items-center justify-center w-full">
-              Get real-time assistance with your coding queries. Try <span class="text-violet-400 mx-2"> AI Help</span>
-              now!
-            </h2>
-            <div class="text-3xl mx-auto md:hidden">
-              &#9776;
-            </div>
+           
           </div>
-          <div class="md:flex  bg-zinc-900 text-slate-200 w-full h-[12vh]">
+          <div class="md:flex hidden  bg-zinc-900 text-slate-200 w-full h-[12vh]">
             <ul class="md:flex hidden md:w-2/3 md:gap-8 md:my-4 md:ml-6 w-fit pt-1">
-              <img class="h-8 w-16" src="logooooo.png" alt="" srcset="">
-              <a href=" #">
+              <div class="">
+                <img class="h-8 w-16" src="logooooo.png" alt="" srcset="">
+                <div class="text-3xl mx-auto md:hidden ">
+                  &#9776;
+                </div>
+              </div>
+             
+              <a  class="hover:scale-125  transition duration-500" href=" #">
                 <li>References </li>
               </a>
-              <a href=" #">
+              <a class="hover:scale-125 transition duration-500" href=" #">
                 <li>Guides </li>
               </a>
-              <a href=" #">
+              <a class="hover:scale-125 transition duration-500" href=" #">
                 <li>Plus </li>
               </a>
-              <a href=" #">
+              <a  class="hover:scale-125 transition duration-500" href=" #">
                 <li>Blog </li>
               </a>
-              <a href=" #">
+              <a class="hover:scale-125 transition duration-500" href=" #">
                 <li>Play </li>
               </a>
 
-              <a href=" #">
+              <a class="hover:scale-125 transition duration-500" href=" #">
                 <li> AI Help </li>
               </a>
 
@@ -52,13 +56,10 @@
             <ul class="md:flex hidden w-1/2 justify-end gap-4 my-4">
               <li class="pt-1">Theme</li>
               <input type="search"
-                class="peer cursor-pointer relative z-10 h-10 w-13 rounded-full border bg-transparent pl-12 outline-none focus:w-full focus:cursor-text focus:border-lime-300 focus:pl-12 focus:pr-4" />
-
-              <!-- <input class="md:w-[10%] md:rounded-lg border-2 placeholder:text-right" type="search"
-                placeholder="&#128269;" name="" id=""> -->
+                class="peer cursor-pointer relative z-10 h-10 w-13 rounded-full border bg-transparent pl-12 outline-none focus:w-[70%] focus:cursor-text focus:border-lime-300 focus:pl-8 focus:pr-4" />
               <button class="text-sm">Log in</button>
               <button
-                class="bg-white text-black rounded-md mr-3 mt-1 font-semibold text-xs w-[20%] text-center p-[5px] h-[40px] ">
+                class="bg-white text-black rounded-md mr-3 mt-1 font-semibold text-xs w-[20%] text-center p-[5px] h-[40px] mb-10 ">
                 Sign Up
                 for free</button>
               </li>
@@ -70,7 +71,7 @@
 
     <!-- main section  -->
 
-    <main class="bg-zinc-900 w-full ">
+    <main class="bg-zinc-900 w-full absolute md:top-[19%] top-[18vh]">
       <section class="w-full h-full">
         <div
           class="bg-[url(mandala.png)] bg-auto md:h-[70vh] h-full w-full text-white md:flex  flex-col items-center justify-center ">
